@@ -1,0 +1,58 @@
+@font-face {
+    font-family: PressStart2P-Regular;
+    src: url(/Etch-a-Sketch/font/PressStart2P-Regular.ttf);
+}
+
+body {
+    background-color:#E8110F;
+    font-family: PressStart2P-Regular;
+    text-align: center;
+}
+
+h1 {
+    color: #FBC723;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    font-family: PressStart2P-Regular;
+    background: #1B6AA5;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+    border: solid 2px #333333;
+    outline: none;
+  }
+  
+button:active {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+  }
+
+.wrap {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 480px;
+    margin: 20px;
+    background-size: contain;
+}
+
+.item {
+    background-color:#ffffff;
+}
