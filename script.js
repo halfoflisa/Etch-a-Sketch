@@ -53,6 +53,6 @@ bonusButton.addEventListener('click', function(){
         "image05.jpg");
      let randomNum = Math.floor(Math.random() * imgList.length);
      let bgImg = document.querySelector('.container');
-     bgImg.style.backgroundImage = 'url(/image/' + imgList[randomNum] + ')';
+     bgImg.style.backgroundImage = 'url(/Etch-a-Sketch/image/' + imgList[randomNum] + ')';
      createDivs(playerInput, bgColor);
 });
